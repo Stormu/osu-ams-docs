@@ -15,7 +15,7 @@ This is a limitation of star ratings not being fully calculated client side. I a
 This is a limitation of how BanchoBot perceives everyone to be ready. If everyone says they are ready except for one last player and said player leaves the lobby, BanchoBot will assume the entire lobby still isn't ready to play. Simply have one player unready then ready again to fix this.
 
 #### The match began before I finished downloading a map and is now stuck
-First off, if this happens, please increase the timer amount. To fix this, either use !abort to abort the progression of the phantom match or leave and join again and the lobby should reset itself.
+First off, if this happens, please increase the timer amount. To fix this, either use `!abort` to abort the progression of the phantom match or leave and join again and the lobby should reset itself.
 
 ## Admin Commands
 Below is a list of commands able to be used by players marked as admins by the bot owner.
