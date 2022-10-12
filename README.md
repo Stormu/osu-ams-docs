@@ -17,6 +17,13 @@ This is a limitation of how BanchoBot perceives everyone to be ready. If everyon
 #### The match began before I finished downloading a map and is now stuck
 First off, if this happens, please increase the timer amount. To fix this, either use `!abort` to abort the progression of the phantom match or leave and join again and the lobby should reset itself.
 
+## Public Commands
+Below is a list of commands able to be used by any player in the lobby.
+
+| Command | Function |
+|---------|----------|
+| `!abort` | Begins a vote to abort the match. Only works while a match is in progress. |
+
 ## Admin Commands
 Below is a list of commands able to be used by players marked as admins by the bot owner.
 
@@ -32,6 +39,7 @@ Below is a list of commands able to be used by players marked as admins by the b
 | `!ruleset` | Returns the current restrictions of a lobby. |
 | `!size [number]` | Sets the size of a lobby. Same as the BanchoBot command `!mp size [number]`. **NOTE**: Setting the size to 0 closes the lobby. |
 | `!skip` | Skips the current beatmap selected and has the bot fetch a new beatmap. Stops countdown timer if the timer is enabled. |
+| `!start` | Skips the timer and immediately starts the match. Same as the BanchoBot command `!mp start` |
 | `!stop` | Stops the automatic countdown timer. The timer will not run again until the match is over. |
 | `!timer [seconds]` | Sets the number of seconds the automatic timer counts down. Acceptable range is 30 seconds to 5 minutes (300 seconds). |
 | `!tl` | Stands for *toggle leaderboard*. Tells the bot whether to search for beatmaps with or without a leaderboard. |
