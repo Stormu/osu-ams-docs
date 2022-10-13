@@ -34,6 +34,7 @@ Below is a list of commands able to be used by players marked as admins by the b
 | `!host` | Makes the user the lobby host. Same as the BanchoBot command `!mp host`. |
 | `!info` | Returns a link to this page. Meant to provide information to admins. |
 | `!kick [player]` | Kicks the player mentioned. Same as the BanchoBot command `!mp kick [player]`. |
+| `!lb [type]` | Change the kind of maps you get. Tells the bot whether to search for beatmaps with or without a leaderboard or to not care. Acceptable types: graveyard, any, *. |
 | `!password [password]` | Sets a password for the lobby. Same as the BanchoBot command `!mp password [password]`. |
 | `!query [string]` | Sets restrictions on a lobby. Check below for a tutorial on how to use this command. |
 | `!ruleset` | Returns the current restrictions of a lobby. |
@@ -42,7 +43,6 @@ Below is a list of commands able to be used by players marked as admins by the b
 | `!start` | Skips the timer and immediately starts the match. Same as the BanchoBot command `!mp start` |
 | `!stop` | Stops the automatic countdown timer. The timer will not run again until the match is over. |
 | `!timer [seconds]` | Sets the number of seconds the automatic timer counts down. Acceptable range is 30 seconds to 5 minutes (300 seconds). |
-| `!tl` | Stands for *toggle leaderboard*. Tells the bot whether to search for beatmaps with or without a leaderboard. |
 | `!tr` | Stands for *toggle random*. Tells the bot whether to automatically fetch a new map after a match or not. |
 | `!tt` | Stands for *toggle timer*. Enable/disable the automatic timer that begins upon map change. |
 
