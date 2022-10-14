@@ -22,7 +22,8 @@ Below is a list of commands able to be used by any player in the lobby.
 
 | Command | Function |
 |---------|----------|
-| `!abort` | Begins a vote to abort the match. Only works while a match is in progress. |
+| `!abort` | Begins a vote to abort the match. Only works while a match is in progress. Requires half the lobby to vote. |
+| `!skip` | Begins a vote to skip the selected map. Works only while a match has yet to begin. Requires half the lobby to vote. |
 
 ## Admin Commands
 Below is a list of commands able to be used by players marked as admins by the bot owner.
